@@ -1,0 +1,39 @@
+.verh{
+    width: 1200px;
+    border: 2px solid white;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 33px;
+    color: black;
+}
+.centr{
+    text-align: center;
+    margin: 100px;
+    font-size: 50px;
+}
+.main{
+    width: 1400px;
+    height: 600px;
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+}
+    .box{
+    width:300px ;
+    height: 300px;
+    border: 2px solid red;
+    background-color: red;
+    
+    }
+    h2{
+        color: white;
+        font-size: 50px;
+       
+       box-sizing: border-box;
+       position: relative;
+       text-align: center;
+       top:40% ;
+       transform: translateY(-50%);
+    }
